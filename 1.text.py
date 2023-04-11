@@ -3,7 +3,7 @@ import streamlit as st
 import pandas as pd
 
 # p. 14
-st.caption('p. 14')
+st.caption('🔖 p. 14')
 
 # title, header, subheader, text, cation
 st.title('This is the title')
@@ -15,7 +15,7 @@ st.caption('Caption in small font')
 st.divider() # st.markdown("""---""")
 
 # p. 15
-st.caption('p. 15')
+st.caption('🔖 p. 15')
 
 # Markdown
 st.markdown("#This is a Markdown title")
@@ -30,7 +30,7 @@ st.markdown('this is **_the markdown 진하고 기울임_**')
 st.divider()
 
 # p. 16
-st.caption('p. 16')
+st.caption('🔖 p. 16')
 st.markdown('- item\n'
             '  - item\n' # 2칸
             '  - item\n' # 2칸
@@ -46,7 +46,7 @@ st.markdown("1. item 1\n"
 st.divider()
 
 # p. 17 Text elements 연습문제: 1.text.py
-st.caption('p. 17')
+st.caption('🔖 p. 17')
 
 con1, con2 = st.columns(2)
 def main():
@@ -72,7 +72,7 @@ main()
 st.divider()
 
 # p. 18
-st.caption('p. 18')
+st.caption('🔖 p. 18')
 
 # code, LaTeX-수학식 표현
 st.code('x=1234')
@@ -82,7 +82,7 @@ st.divider()
 
 
 # p. 19
-st.caption('p. 19')
+st.caption('🔖 p. 19')
 
 # st.write
 # String, data_frame, chart, graph, LaTex 등의 objects를 App에 출력할 수 있다.
@@ -95,7 +95,7 @@ st.write('Below is a DataFrame:', df, 'Above is a dataframe.')
 st.divider()
 
 # p. 20 Text elements 연습문제: 1.text.py
-st.caption('p. 20')
+st.caption('🔖 p. 20')
 
 con1, con2 = st.columns(2)
 def main():
