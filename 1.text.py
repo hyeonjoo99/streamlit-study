@@ -4,7 +4,6 @@ import pandas as pd
 
 st.title('Unit 1. Text elements')
 st.divider() # st.markdown("""---""")
-st.divider()
 
 # p. 14
 st.caption('🔖 p. 14')
