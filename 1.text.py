@@ -2,6 +2,8 @@
 import streamlit as st
 import pandas as pd
 
+st.title('Unit 1. Text elements')
+
 # p. 14
 st.caption('🔖 p. 14')
 
