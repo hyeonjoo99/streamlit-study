@@ -3,6 +3,8 @@ import streamlit as st
 import pandas as pd
 
 st.title('Unit 1. Text elements')
+st.divider() # st.markdown("""---""")
+st.divider()
 
 # p. 14
 st.caption('🔖 p. 14')
@@ -14,7 +16,7 @@ st.subheader('This is the subheader')
 st.text('This is the text')
 st.caption('Caption in small font')
 
-st.divider() # st.markdown("""---""")
+st.divider()
 
 # p. 15
 st.caption('🔖 p. 15')
